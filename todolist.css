@@ -1,0 +1,84 @@
+body{
+    background-color: darkslategray;
+}
+
+.container{
+    background-image: url(/koye.jpg);
+    background-repeat: no-repeat;
+   background-size: cover;
+    width: 450px;
+    height: 350px;
+    margin: 70px auto;
+    border: 2px solid rebeccapurple;
+    padding: 50px;
+    border-radius: 10px;
+}
+h2{
+    color: rebeccapurple;
+    text-align: center;
+}
+
+#projects{ 
+    border-radius: 5px;
+    border: solid black;
+    padding: 20px 5px 0px 5px;
+   box-sizing: content-box;
+}
+ol li{
+    cursor: pointer;
+    padding: 2px;
+    border: 1px groove rgb(20, 8, 8);
+    margin-bottom: 5px;
+}
+ol li:hover {
+    background-color: chartreuse;
+    opacity: 0.6;
+}
+ul {
+    list-style-type: none;
+    margin: 0%;
+    padding: 0px;
+    overflow: hidden;
+    background-color: rgb(93, 93, 180);
+    padding-top: 5px;
+}
+ul li {
+    float: left;
+    margin-right: 2px;
+    border-radius: 10px;
+}
+ul li a{
+    display: block;
+    padding: 14px 16px 10px 16px;
+    background-color: rgb(88, 224, 88);
+    text-decoration: none;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+
+ul li a:hover{
+    background-color:rgb(38, 50, 224);
+    opacity: 0.6;
+}
+.addProject{
+    height: 30px;
+    border-radius: 10px;
+    margin-left: 350px;
+    background-color:rgb(231, 235, 18);
+    margin-bottom: 10px;
+    opacity: 0.5;
+}
+.addProject:hover{
+    background-color: rgb(177, 180, 0);
+    opacity: 1;
+}
+#dialog{
+    padding-top: 10px;
+    border-radius: 5%;
+    background-color: springgreen;
+    box-sizing: content-box;
+    border: solid black;
+    resize: none; 
+}
+
